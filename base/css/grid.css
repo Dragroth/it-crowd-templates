@@ -1,0 +1,34 @@
+.grid-container {
+    display: grid;
+    grid-gap: 5px;
+    grid-template-areas: 
+    "header header"
+    "nav nav"
+    "main aside"
+    "footer footer";
+    grid-template-columns: 3fr minmax(max-content, 1.15fr);
+    min-height: 100vh;
+    width: 80%;
+    font-size: 17pt;
+}
+
+.grid-item {
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+}
+header {
+    grid-area: header;
+}
+nav {
+    grid-area: nav;
+}
+main {
+    grid-area: main;
+}
+aside {
+    grid-area: aside;
+}
+footer {
+    grid-area: footer;
+}

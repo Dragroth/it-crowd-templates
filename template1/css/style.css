@@ -1,0 +1,26 @@
+.static-image {
+    color:rgb(235, 235, 235);
+    background-image: url('../img/art-img3.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 100vh;
+    width: 100%;
+    background-color: rgb(70, 70, 70);
+    background-blend-mode: overlay;
+    font-family: 'Lato', sans-serif;
+    -webkit-user-select: none;      
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none; 
+}
+.static-image div {
+    padding: 10px;
+    margin: 5px;
+    background-color: rgba(36, 36, 36, 0.7);
+    border-radius: 5px;
+    font-size: 40pt;
+}
+
+#static-image-secondary {
+    font-size: 22pt;
+}
