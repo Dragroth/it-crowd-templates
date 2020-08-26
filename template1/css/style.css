@@ -4,7 +4,6 @@ html {
 
 body {
     font-family: 'Scope One', serif;
-    background-color: rgb(235, 235, 235);
     font-size: 13pt;
 }
 
@@ -117,10 +116,59 @@ body {
 /* Footer */
 
 footer .copyright .icon {
+    display: flex;
+    justify-content: center;
     font-size: 30pt;
-    margin: 0 .5em;
+    /* margin: 0 .5em .3em .5em; */
+    color: rgba(0, 0, 0, 0.6);
+    box-shadow: 0px 0px 0px 7px #fff, 0px 0px 0px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 100%;
+    width: 1em;
+    height: 1em;
+    transition-duration: .3s;
+}
+
+footer .copyright .icons {
+    height: 3em;
+    width: 20%;
+    margin: auto;
+}
+
+footer .copyright .icons div {
+    width: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+footer .copyright .fa-twitter {
+    color: rgb(8, 112, 231);
+}
+
+footer .copyright .fa-facebook {
+    color: rgb(0, 77, 165);
+}
+
+footer .copyright .fa-instagram {
+    color: rgb(136, 40, 107);
+}
+
+footer .copyright .fa-snapchat {
+    color: rgb(230, 214, 0);
+}
+
+footer .copyright .icon:hover {
+    text-decoration: none;
+    color: rgb(70, 70, 70);
+    font-size: 36pt;
 }
 
 footer .copyright .label {
     display: none;
+}
+
+footer p {
+    color: rgb(104, 104, 104);
+    font-weight: 600;
+    text-align: center;
 }
