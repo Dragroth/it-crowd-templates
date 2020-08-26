@@ -13,6 +13,11 @@ body {
     font-weight: normal;
 }
 
+.btn-primary {
+    background-color: #3498db;
+    font-weight: 700;
+}
+
 /* Banner */
 
 .static-image {
@@ -41,8 +46,6 @@ body {
 .static-image header .btn {
     box-shadow: 4px 4px 40px black;
     font-size: 12pt;
-    font-weight: 700;
-    background-color: #3498db;
 }
 
 /* Main */
@@ -50,11 +53,13 @@ body {
 .type1 {
     background-color: inherit;
     color: black;
+    width:100%;
 }
 
 .type2 {
     background-color: #3498db;
     color: white;
+    width: 100%;
 }
 
 .type-container {
@@ -74,6 +79,12 @@ body {
 #main .type2 .col-img {
     text-align: left;
     padding-left: 2em;
+}
+
+#main .type1 .triple .col-img {
+    padding: 0;
+    text-align: center;
+    margin: 0 1em 0 1em;
 }
 
 #main .col-text {
@@ -100,4 +111,16 @@ body {
 
 .type2 .img-border {
     box-shadow: 0px 0px 0px 7px #3498db, 0px 0px 0px 8px rgba(255, 255, 255, 0.25);
+}
+
+
+/* Footer */
+
+footer .copyright .icon {
+    font-size: 30pt;
+    margin: 0 .5em;
+}
+
+footer .copyright .label {
+    display: none;
 }
