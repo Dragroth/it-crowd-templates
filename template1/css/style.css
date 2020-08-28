@@ -12,16 +12,26 @@ body {
     font-weight: normal;
 }
 
+::selection {
+    background-color: #2b7eb6;
+    color: white;
+}
+
+::-moz-selection {
+    background-color: #2b7eb6;
+    color: white;
+}
+
+
 .btn-primary {
     background-color: #3498db;
     font-weight: 700;
 }
 
-/* nav {
+nav {
     font-size: 16pt;
     font-weight: 600;
-    color: white;
-    position: fixed;
+    position: absolute;
     width: 100%;
     right: 0;
     top: 0;
@@ -30,8 +40,15 @@ body {
 }
 
 nav a {
+    color: white;
     margin: 0 1em;
-} */
+    text-shadow: 0px 0px 10px black;
+}
+
+nav a:hover {
+    color: white;
+    text-decoration: none;
+}
 
 /* Banner */
 
@@ -50,17 +67,17 @@ nav a {
     font-size: 36pt;
     margin-bottom: .1em;
     font-weight: 700;
-    text-shadow: 5px 5px 30px black;
+    text-shadow: 0 0 30px black;
 }
 
 .static-image header h2 {
     margin-bottom: .6em;
     font-size: 20pt;
-    text-shadow: 5px 5px 8px black;
+    text-shadow: 0 0 8px black;
 }
 
 .static-image header .btn {
-    box-shadow: 4px 4px 40px black;
+    box-shadow: 0 0 40px black;
     font-size: 12pt;
 }
 
@@ -125,6 +142,39 @@ nav a {
     box-shadow: 0px 0px 0px 7px #3498db, 0px 0px 0px 8px rgba(255, 255, 255, 0.25);
 }
 
+/* Contact */
+
+.contact .type2 {
+    display: flex;
+    margin: auto;
+    justify-content: center;
+}
+
+.contact .type2 h2 {
+    text-align: center;
+    font-weight: 600;
+}
+
+.contact-container {
+    width: 80%;
+}
+
+.contact .double {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+}
+
+.contact .left {
+    /* border-right: 1px solid white; */
+    border-bottom: 1px solid white;
+}
+.contact .right {
+    padding-top: 1em;
+}
 
 /* Footer */
 
@@ -213,6 +263,9 @@ footer p {
     footer .copyright .icons {
         width: 45%;
     }
+    .contact-container {
+        width: 60%;
+    }
 }
 
 
@@ -228,6 +281,22 @@ footer p {
     }
     .static-image header h2 {
         font-size: 24pt;
+    }
+    .contact .double {
+        flex-direction: row;
+        align-items: flex-start;
+    }
+    
+    .contact .left {
+        border-bottom: 0;
+        border-right: 1px solid white; 
+        text-align: right;
+        padding-right: .4em;
+    }
+    .contact .right {
+        text-align: left;
+        padding-top: 0;
+        padding-left: .4em;
     }
 }
 
@@ -254,6 +323,9 @@ footer p {
 @media (min-width: 1312px) {
     .type-container {
         width: 75%;
+    }
+    .contact-container {
+        width: 50%;
     }
     .triple {
         justify-content: space-around;
