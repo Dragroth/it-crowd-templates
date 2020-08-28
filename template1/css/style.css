@@ -67,8 +67,6 @@ body {
 } */
 
 
-
-
 /* Main */
 
 .type1 {
@@ -94,11 +92,6 @@ body {
 
 #main .col-img {
     margin: 1em auto 1em auto;
-}
-
-#main .type2 .col-img {
-    text-align: left;
-    padding-left: 2em;
 }
 
 #main .type1 .triple .col-img {
@@ -153,7 +146,7 @@ footer .copyright .icon {
 
 footer .copyright .icons {
     height: 3em;
-    width: 50%;
+    width: 70%;
     margin: auto;
 }
 
@@ -198,6 +191,12 @@ footer p {
 
 
 /* RWD */
+@media (min-width: 600px) {
+    footer .copyright .icons {
+        width: 45%;
+    }
+}
+
 
 @media (min-width: 820px) {
     .type-container {
