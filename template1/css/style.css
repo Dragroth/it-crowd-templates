@@ -31,7 +31,7 @@ body {
 }
 
 .static-image header h1 {
-    font-size: 4em;
+    font-size: 36pt;
     margin-bottom: .1em;
     font-weight: 700;
     text-shadow: 5px 5px 30px black;
@@ -39,6 +39,7 @@ body {
 
 .static-image header h2 {
     margin-bottom: .6em;
+    font-size: 20pt;
     text-shadow: 5px 5px 8px black;
 }
 
@@ -46,6 +47,27 @@ body {
     box-shadow: 4px 4px 40px black;
     font-size: 12pt;
 }
+
+/* .static-image header h1 {
+    font-size: 52pt;
+    margin-bottom: .1em;
+    font-weight: 700;
+    text-shadow: 5px 5px 30px black;
+}
+
+.static-image header h2 {
+    font-size: 24pt;
+    margin-bottom: .6em;
+    text-shadow: 5px 5px 8px black;
+}
+
+.static-image header .btn {
+    box-shadow: 4px 4px 40px black;
+    font-size: 12pt;
+} */
+
+
+
 
 /* Main */
 
@@ -183,6 +205,12 @@ footer p {
     }
     footer .copyright .icons {
         width: 35%;
+    }
+    .static-image header h1 {
+        font-size: 52pt;
+    }
+    .static-image header h2 {
+        font-size: 24pt;
     }
 }
 
