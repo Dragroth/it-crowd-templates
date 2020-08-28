@@ -1,3 +1,4 @@
+/* Global */
 html {
     scroll-behavior: smooth;
 }
@@ -28,6 +29,21 @@ body {
     font-weight: 700;
 }
 
+.type1 {
+    background-color: inherit;
+    color: black;
+    width:100%;
+}
+
+.type2 {
+    background-color: #3498db;
+    color: white;
+    width: 100%;
+}
+
+/* Banner */
+
+/* Nav */
 nav {
     font-size: 16pt;
     font-weight: 600;
@@ -50,8 +66,6 @@ nav a:hover {
     text-decoration: none;
 }
 
-/* Banner */
-
 .static-image {
     color:rgb(235, 235, 235);
     background-image: url('../img/art-img3.jpg');
@@ -72,28 +86,16 @@ nav a:hover {
 
 .static-image header h2 {
     margin-bottom: .6em;
-    font-size: 20pt;
+    font-size: 17pt;
     text-shadow: 0 0 8px black;
 }
 
 .static-image header .btn {
     box-shadow: 0 0 40px black;
     font-size: 12pt;
+    padding: .4em 1.1em;
 }
-
 /* Main */
-
-.type1 {
-    background-color: inherit;
-    color: black;
-    width:100%;
-}
-
-.type2 {
-    background-color: #3498db;
-    color: white;
-    width: 100%;
-}
 
 .type-container {
     width: 90%;
@@ -169,7 +171,6 @@ nav a:hover {
 }
 
 .contact .left {
-    /* border-right: 1px solid white; */
     border-bottom: 1px solid white;
 }
 .contact .right {
@@ -182,7 +183,6 @@ footer .copyright .icon {
     display: flex;
     justify-content: center;
     font-size: 30pt;
-    /* margin: 0 .5em .3em .5em; */
     color: rgba(0, 0, 0, 0.6);
     box-shadow: 0px 0px 0px 7px #fff, 0px 0px 0px 8px rgba(0, 0, 0, 0.1);
     border-radius: 100%;
@@ -231,9 +231,10 @@ footer .copyright .label {
 }
 
 footer p {
-    color: rgb(104, 104, 104);
+    color: rgb(95, 95, 95);
     font-weight: 600;
     text-align: center;
+    font-size: 9pt;
 }
 
 #back2Top {
@@ -241,7 +242,7 @@ footer p {
     z-index: 999;
     bottom: 0;
     right: 0;
-    margin: 40px;
+    margin: 20px;
     width: 40px;
     height: 40px;
     background-color: #0079ca;
@@ -255,82 +256,3 @@ footer p {
     display: block;
     transition: 0.6s;
 }
-
-
-
-/* RWD */
-@media (min-width: 600px) {
-    footer .copyright .icons {
-        width: 45%;
-    }
-    .contact-container {
-        width: 60%;
-    }
-}
-
-
-@media (min-width: 820px) {
-    .type-container {
-        width: 75%;
-    }
-    footer .copyright .icons {
-        width: 35%;
-    }
-    .static-image header h1 {
-        font-size: 52pt;
-    }
-    .static-image header h2 {
-        font-size: 24pt;
-    }
-    .contact .double {
-        flex-direction: row;
-        align-items: flex-start;
-    }
-    
-    .contact .left {
-        border-bottom: 0;
-        border-right: 1px solid white; 
-        text-align: right;
-        padding-right: .4em;
-    }
-    .contact .right {
-        text-align: left;
-        padding-top: 0;
-        padding-left: .4em;
-    }
-}
-
-@media (min-width: 1080px) {
-    .type-container {
-        width: 90%;
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        margin: auto;
-    }
-    #main .col-img {
-        width: min-content;
-        margin: auto;
-    }
-    #main .col-text {
-        text-align: left;
-    }
-    footer .copyright .icons {
-        width: 25%;
-    }
-}
-
-@media (min-width: 1312px) {
-    .type-container {
-        width: 75%;
-    }
-    .contact-container {
-        width: 50%;
-    }
-    .triple {
-        justify-content: space-around;
-    }
-    footer .copyright .icons {
-        width: 20%;
-    }
-} 
