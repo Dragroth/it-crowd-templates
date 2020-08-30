@@ -91,6 +91,10 @@ header nav a:hover {
     text-shadow: 0 0 8px black;
 }
 
+.static-image h3, .static-image h4, .static-image h5, .static-image h6 {
+    text-shadow: 0 0 8px black;
+}
+
 .static-image .btn {
     box-shadow: 0 0 40px black;
     font-size: 12pt;
@@ -168,6 +172,13 @@ header nav a:hover {
 
 .article a:hover {
     text-decoration: none;
+}
+
+.article-content {
+    text-align: justify;
+    font-size: 12pt;
+    padding: 1em;
+    width: 100%;
 }
 
 /* Contact */

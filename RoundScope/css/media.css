@@ -12,6 +12,11 @@
     .static-image .btn {
         padding: .7em 1.6em;
     }
+    .article-content {
+    font-size: 14pt;
+    padding: 2em;
+    width: 90%;
+    }
 }
 
 
@@ -49,6 +54,11 @@
     footer p {
         font-size: 13pt;
     }
+    .article-content {
+        font-size: 15pt;
+        padding: 2em;
+        width: 80%;
+        }
 }
 
 @media (min-width: 1080px) {
@@ -69,6 +79,11 @@
     footer .copyright .icons {
         width: 25%;
     }
+    .article-content {
+        font-size: 15pt;
+        padding: 3em;
+        width: 75%;
+        }
 }
 
 @media (min-width: 1312px) {
@@ -84,5 +99,9 @@
     footer .copyright .icons {
         width: 20%;
     }
-
+    .article-content {
+        font-size: 16pt;
+        padding: 3em;
+        width: 60%;
+        }
 } 
