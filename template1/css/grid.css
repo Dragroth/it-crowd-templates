@@ -1,7 +1,7 @@
 .grid-container {
     display: grid;
     grid-template-areas: 
-    "banner"
+    "header"
     "main"
     "contact"
     "footer";
@@ -13,8 +13,8 @@
     justify-content: center;
     align-items: center;
 }
-.static-image {
-    grid-area: banner;
+header {
+    grid-area: header;
 }
 main {
     grid-area: main;
