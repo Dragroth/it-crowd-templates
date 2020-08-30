@@ -32,7 +32,6 @@
         flex-direction: row;
         align-items: flex-start;
     }
-    
     .contact .left {
         border-bottom: 0;
         border-right: 1px solid white; 
@@ -49,6 +48,9 @@
     }
     footer p {
         font-size: 13pt;
+    }
+    .articles {
+        width: 85%;
     }
 }
 
@@ -85,4 +87,11 @@
     footer .copyright .icons {
         width: 20%;
     }
+
 } 
+
+@media (min-width: 1620px) {
+    .articles {
+        width: 75%;
+    }
+}

@@ -145,6 +145,28 @@ nav a:hover {
     box-shadow: 0px 0px 0px 7px #3498db, 0px 0px 0px 8px rgba(255, 255, 255, 0.25);
 }
 
+/* Articles */
+.articles {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.article {
+    max-width: 300px;
+    text-align: center;
+    margin: 3em 3em;
+}
+
+.article a {
+    color: inherit;
+}
+
+.article a:hover {
+    text-decoration: none;
+}
+
 /* Contact */
 
 .contact .type2 {
