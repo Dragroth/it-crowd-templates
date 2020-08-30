@@ -44,7 +44,7 @@ body {
 /* Header */
 
 /* Nav */
-nav {
+header nav {
     font-size: 16pt;
     font-weight: 600;
     position: absolute;
@@ -55,13 +55,13 @@ nav {
     text-align: right;
 }
 
-nav a {
+header nav a {
     color: white;
     margin: 0 1em;
     text-shadow: 0px 0px 10px black;
 }
 
-nav a:hover {
+header nav a:hover {
     color: white;
     text-decoration: none;
 }
