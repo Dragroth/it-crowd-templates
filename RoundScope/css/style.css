@@ -154,9 +154,12 @@ header nav a:hover {
 }
 
 .article {
-    max-width: 300px;
     text-align: center;
-    margin: 3em 3em;
+    margin: 3em 0;
+    padding: 0 2em;
+    display: flex;
+    flex-direction: row;
+    width: 50%;
 }
 
 .article a {
