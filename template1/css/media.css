@@ -9,7 +9,7 @@
     footer p {
         font-size: 11pt;
     }
-    .static-image header .btn {
+    .static-image .btn {
         padding: .7em 1.6em;
     }
 }
@@ -22,10 +22,10 @@
     footer .copyright .icons {
         width: 35%;
     }
-    .static-image header h1 {
+    .static-image h1 {
         font-size: 52pt;
     }
-    .static-image header h2 {
+    .static-image h2 {
         font-size: 24pt;
     }
     .contact .double {

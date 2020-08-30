@@ -41,7 +41,7 @@ body {
     width: 100%;
 }
 
-/* Banner */
+/* Header */
 
 /* Nav */
 nav {
@@ -70,7 +70,7 @@ nav a:hover {
     color:rgb(235, 235, 235);
     background-image: url('../img/art-img3.jpg');
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size: cover; 
     background-attachment: fixed;
     height: 100vh;
     width: 100%;
@@ -78,20 +78,20 @@ nav a:hover {
     background-blend-mode: overlay;
 }
 
-.static-image header h1 {
+.static-image h1 {
     font-size: 36pt;
     margin-bottom: .1em;
     font-weight: 700;
     text-shadow: 0 0 30px black;
 }
 
-.static-image header h2 {
+.static-image h2 {
     margin-bottom: .6em;
     font-size: 17pt;
     text-shadow: 0 0 8px black;
 }
 
-.static-image header .btn {
+.static-image .btn {
     box-shadow: 0 0 40px black;
     font-size: 12pt;
     padding: .4em 1.1em;
