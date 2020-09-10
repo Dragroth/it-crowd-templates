@@ -1,3 +1,4 @@
+/* General */
 body {
     font-family: 'Montserrat', sans-serif;
 }
@@ -13,6 +14,7 @@ a:hover {
     display: none;
 }
 
+/* Navbar */
 .navbar-bar {
     display: flex;
     justify-content: space-between;
@@ -23,8 +25,10 @@ a:hover {
 
 .navbar-left {
     display: flex;
-    justify-content: center;
+    justify-content: left;
     align-items: center;
+    width: min-content;
+    overflow: hidden;
 }
 .navbar-right {
     position: fixed;
@@ -84,11 +88,14 @@ a:hover {
 .menu-toggler{
     background: none;
     width: 30px;
+    padding: 0;
     border: none;
     cursor: pointer;
     position: relative;
-    outline: none;
     z-index: 1000;
+  }
+  .menu-toggler:focus {
+      outline: 0;
   }
   .menu-toggler span{
     display: block;
@@ -113,14 +120,64 @@ a:hover {
     right: 0;
     }
 
+/* Header */
+
 .static-image {
     color:rgb(235, 235, 235);
-    background-image: url('../img/jumiz1.jpg');
     background-repeat: no-repeat;
     background-size: cover; 
     background-attachment: fixed;
     height: 100vh;
     width: 100%;
-    background-color: rgb(80, 80, 80);
+    background-color: rgb(65, 65, 65);
     background-blend-mode: overlay;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+
+.static-image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    width: 75%;
+}
+
+.static-image-container h1 {
+    font-family: 'Italianno', cursive;
+    font-size: 62pt;
+}
+
+.static-image-container p {
+    font-size: 24pt;
+    font-family: 'Abel', sans-serif;
+}
+
+.arrowbutton {
+    border-radius: 100%; 
+    height: 3em; 
+    width: 3em; 
+    background-color: rgba(0,0,0,0.5);
+    color: rgba(255, 255, 255, 0.7);
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.arrowbutton i {
+    -webkit-animation: MoveUpDown 0.5s infinite alternate;
+    animation:  MoveUpDown 0.5s infinite alternate;
+}
+
+@keyframes MoveUpDown {
+    0% {
+		transform: translateY(5px);
+	}
+	100% {
+		transform: translateY(-5px);
+	}
+  }
+
