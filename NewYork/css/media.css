@@ -1,0 +1,18 @@
+@media (min-width: 1080px) {
+    .navbar-right {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        top: initial;
+        height: initial;
+        width: initial;
+        right: initial;
+        max-width: initial;
+        padding: 0;
+        background-color: transparent;
+    }
+    .menu-toggler {
+        display: none;
+    }
+}
