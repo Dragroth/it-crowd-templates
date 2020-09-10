@@ -1,11 +1,11 @@
 window.onscroll = function () { 
     var myNav = document.querySelector(".navbar");
-    if (window.scrollY != 0 ) {
-        myNav.classList.add("nav-colored");
-        myNav.classList.remove("nav-transparent");
+    if (window.scrollY > 50 ) {
+        myNav.classList.add("navbar-other");
+        myNav.classList.remove("navbar-top");
     } 
     else {
-        myNav.classList.add("nav-transparent");
-        myNav.classList.remove("nav-colored");
+        myNav.classList.add("navbar-top");
+        myNav.classList.remove("navbar-other");
     }
 };
