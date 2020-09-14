@@ -1,14 +1,9 @@
 /* General */
+body {
+    font-family: 'Montserrat', sans-serif;
+}
 * { 
     box-sizing: border-box; 
-}
-html {
-    height: -webkit-fill-available;
-}
-body {
-    min-height: 100vh;
-    min-height: -webkit-fill-available;
-    font-family: 'Montserrat', sans-serif;
 }
 a {
     color: #ffffff;
@@ -148,6 +143,7 @@ a:hover {
     background-size: cover; 
     background-attachment: fixed;
     height: 100vh;
+    height: calc(var(--vh, 1vh) * 100);
     min-width: 100%;
     background-color: rgb(65, 65, 65);
     background-blend-mode: overlay;

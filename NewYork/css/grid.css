@@ -1,9 +1,6 @@
 header {
     grid-area: header;
 }
-nav {
-    grid-area: nav;
-}
 main {
     grid-area: main;
 }
@@ -22,5 +19,4 @@ footer {
     "footer";
     grid-template-columns: 1fr;
     font-size: 16pt;
-    min-height: 150vh;
 }
