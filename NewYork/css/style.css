@@ -152,6 +152,7 @@ a:hover {
 }
 
 .static-image-container {
+    margin-top: 10%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -159,15 +160,15 @@ a:hover {
     text-align: center;
     width: 75%;
 }
-
 .static-image-container h1 {
     font-family: 'Italianno', cursive;
-    font-size: 62pt;
+    font-size: 42pt;
 }
 
-.static-image-container p {
-    font-size: 24pt;
+.static-image-container h2, .static-image-container p {
+    font-size: 18pt;
     font-family: 'Abel', sans-serif;
+    line-height: 1.5;
 }
 
 .arrowbutton {
@@ -196,20 +197,21 @@ a:hover {
 		transform: translateY(-5px);
 	}
 }
-.carousel-cell {
+.testimonial-carousel {
+    margin-bottom: 1em;
+}
+.flickity-slider {
+    display: flex;
+    align-items: center;
+}
+ .carousel-cell {
+    padding-top: 30px;
+    padding-bottom: 10px;
     width: 100%;
     text-align: center;
-    margin-right: 10px;
+    font-size: 10pt;
     background-color: rgb(255, 255, 255);
     border-radius: 5px;
-}
-.flickity-viewport {
-    transition: height 0.2s;
-  }
-.testimonial-icon, .testimonial-quote, .testimonial-name{
-    width: 80%;
-    margin: auto;
-    display: block;
 }
 .testimonial-icon {
     font-size: 2.5em;
