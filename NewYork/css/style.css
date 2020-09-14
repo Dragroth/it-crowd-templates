@@ -132,9 +132,6 @@ a:hover {
 }
 
 
-
-
-
 /* Header */
 
 .static-image {
@@ -143,7 +140,6 @@ a:hover {
     background-size: cover; 
     background-attachment: fixed;
     height: 100vh;
-    height: calc(var(--vh, 1vh) * 100);
     min-width: 100%;
     background-color: rgb(65, 65, 65);
     background-blend-mode: overlay;
