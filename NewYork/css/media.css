@@ -1,3 +1,30 @@
+@media (min-width: 400px) {
+    .carousel-cell {
+        padding: 65px 0;
+        font-size: 12pt;
+    }
+}
+@media (min-width: 450px) {
+    .carousel-cell {
+        padding: 55px 0;
+        font-size: 13pt;
+    }
+    .flickity-prev-next-button {
+        width: 44px;
+    }
+}
+@media (min-width: 600px) {
+    .carousel-cell {
+        padding: 45px 0;
+        font-size: 14pt;
+    }
+}
+@media (min-width: 960px) {
+    .carousel-cell {
+        padding: 20px 0;
+        font-size: 16pt;
+    }
+}
 @media (min-width: 1080px) {
     .navbar-right {
         display: flex;
@@ -14,5 +41,18 @@
     }
     .menu-toggler {
         display: none;
+    }
+    .carousel-cell {
+        padding: 30px 0;
+        font-size: 16pt;
+    }
+}
+@media (min-width: 1200px) {
+    .testimonial-icon, .testimonial-quote, .testimonial-name {
+        width: 60%;
+    }
+    .carousel-cell {
+        padding: 40px 0;
+        font-size: 16pt;
     }
 }

@@ -137,10 +137,12 @@ a:hover {
 .static-image {
     color:rgb(235, 235, 235);
     background-repeat: no-repeat;
-    background-size: cover; 
+    background-size: cover;
     background-attachment: fixed;
+    background-position: center;
+    transform: 0.5s ease;
     height: 100vh;
-    min-width: 100%;
+    width: 100%;
     background-color: rgb(65, 65, 65);
     background-blend-mode: overlay;
     display: flex;
@@ -195,20 +197,33 @@ a:hover {
 	}
 }
 .testimonial-carousel {
-    margin-bottom: 1em;
+    margin-bottom: 1.5em;
 }
 .flickity-slider {
     display: flex;
     align-items: center;
 }
- .carousel-cell {
-    padding-top: 30px;
-    padding-bottom: 10px;
+.flickity-prev-next-button {
+    width: 25px;
+    height: 44px;
+}
+.carousel-cell {
+    padding: 80px 0;
     width: 100%;
     text-align: center;
     font-size: 10pt;
     background-color: rgb(255, 255, 255);
     border-radius: 5px;
+}
+.flickity-page-dots .dot {
+    width: 40px;
+    height: 20px;
+    border-radius: 3px;
+}
+.testimonial-icon, .testimonial-quote, .testimonial-name {
+    width: 78%;
+    display: block;
+    margin: auto;
 }
 .testimonial-icon {
     font-size: 2.5em;
@@ -222,4 +237,21 @@ a:hover {
 }
 .testimonial-name {
     font-weight: 600;
+}
+.testimonial-star {
+    color: rgb(255, 255, 0);
+    filter: drop-shadow(0 0 1px #000);
+}
+
+footer {
+    display: flex;
+    color: white;
+    background-color: rgb(50, 50, 50);
+}
+/* footer div {
+    width: 33%;
+    height: 100%;
+} */
+.fb-page {
+    height: 100%;
 }
