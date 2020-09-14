@@ -1,9 +1,14 @@
 /* General */
-body {
-    font-family: 'Montserrat', sans-serif;
-}
 * { 
     box-sizing: border-box; 
+}
+html {
+    height: -webkit-fill-available;
+}
+body {
+    min-height: 100vh;
+    min-height: -webkit-fill-available;
+    font-family: 'Montserrat', sans-serif;
 }
 a {
     color: #ffffff;
