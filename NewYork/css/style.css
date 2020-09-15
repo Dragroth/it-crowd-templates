@@ -16,6 +16,7 @@ a:hover {
 .label {
     display: none;
 }
+
 /* Navbar */
 .navbar-bar {
     display: flex;
@@ -96,6 +97,7 @@ a:hover {
     background-color: rgb(50, 50, 50);
     height: 7.5%;
 }
+/* Navbar - menu */
 .menu-toggler {
     background: none;
     width: 30px;
@@ -133,7 +135,6 @@ a:hover {
 
 
 /* Header */
-
 .static-image {
     color:rgb(235, 235, 235);
     background-repeat: no-repeat;
@@ -196,8 +197,24 @@ a:hover {
 		transform: translateY(-5px);
 	}
 }
-.testimonial-carousel {
-    margin-bottom: 1.5em;
+
+/* Main */
+main {
+    padding: 0.5em;
+}
+
+.main-img img {
+    width:100%;
+}
+
+.yt {
+    height: 50vw;
+    width: 100%;
+}
+
+/* Main - carousel */
+.main-carousel {
+    margin-bottom: 2em;
 }
 .flickity-slider {
     display: flex;
@@ -239,19 +256,72 @@ a:hover {
     font-weight: 600;
 }
 .testimonial-star {
-    color: rgb(255, 255, 0);
+    color: #f2b01e;
     filter: drop-shadow(0 0 1px #000);
 }
 
-footer {
+/* Main - gallery */
+.main-gallery {
     display: flex;
-    color: white;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin: auto;
+}
+.main-gallery-item {
+    margin: 15px 0px;
+    width: 100%;
+    padding-top: 100%;
+    border-radius: 10%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+/* Footer */
+footer {
     background-color: rgb(50, 50, 50);
 }
-/* footer div {
-    width: 33%;
-    height: 100%;
-} */
-.fb-page {
-    height: 100%;
+footer .map {
+    width: 100%;
+    height: 400px;
+    display: block;
+}
+footer .triple {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    color: #fff;
+    padding: 1em;
+}
+footer .triple div {
+    width: 100%;
+}
+footer .triple div h3 {
+    font-family: 'Oswald', sans-serif;
+    font-weight: 600;
+    font-size: 14pt;
+    margin-top: 1em;
+}
+footer .triple div p {
+    font-weight: 600;
+    color: rgba(255,255,255,0.6);
+    font-size: 10pt;
+    margin: auto;
+}
+.fb {
+    margin-top: 1em;
+}
+footer .copyright {
+    display: block;
+    width: 80%;
+    text-align: center;
+    padding: 0.5em 0;
+    margin: auto;
+    border-top: 1px solid rgba(255, 255, 255, 0.45);
+    font-size: 12pt;
+    color: rgba(255, 255, 255, 0.25);
 }

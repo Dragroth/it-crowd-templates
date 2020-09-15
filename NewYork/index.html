@@ -3,21 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>base</title>
+    <title>NewYork - Main Page</title>
     <link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" 
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
     integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
     <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Abel&family=Italianno&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Abel&family=Italianno&family=Montserrat&family=Oswald&display=swap" rel="stylesheet">
     <link rel='stylesheet' id='font-awesome-css'  href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css?ver=5.5' type='text/css' media='all'/>
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/grid.css">
     <link rel="stylesheet" href="css/media.css"> 
 </head>
 <body class="grid-container m-auto">
-    <div id="fb-root"></div>
-    <script async defer crossorigin="anonymous" src="https://connect.facebook.net/pl_PL/sdk.js#xfbml=1&version=v8.0" nonce="r6eJ0MLN"></script>
+
     <nav class="container-fluid navbar-bar navbar-top">
         <section class="navbar-left">
             <a href="#"><img src="img/logo.png" alt="LOGO" srcset=""></a>
@@ -52,8 +50,10 @@
             <div class="arrowbutton"><i class="fa fa-angle-double-down"></i></div>
         </div>
     </header>
+
     <main class="grid-item">
-        <div class="testimonial-carousel" data-flickity='{"wrapAround": true}'>
+
+        <section class="main-carousel" data-flickity='{"wrapAround": true}'>
             <div class="carousel-cell">
                 <p class="testimonial-icon"><i class="fas fa-user-circle"></i></p>
                 <q class="testimonial-quote">Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio quod doloremque neque ex, possimus nemo blanditiis consequuntur expedita tenetur. Porro atque eligendi iusto perspiciatis neque!</q>
@@ -120,23 +120,47 @@
                     <li class="fa fa-star testimonial-star"></li>
                 </p>
             </div>
-        </div>
+        </section>
+
+        <section class="main-gallery">
+            <div class="main-gallery-item" style="background-image: url(img/art-img1.jpg);"></div>
+            <div class="main-gallery-item" style="background-image: url(img/art-img2.jpg);"></div>
+            <div class="main-gallery-item" style="background-image: url(img/art-img3.jpg);"></div>
+            <div class="main-gallery-item" style="background-image: url(img/art-img4.jpg);"></div>
+            <div class="main-gallery-item" style="background-image: url(img/art-img5.jpg);"></div>
+            <div class="main-gallery-item" style="background-image: url(img/art-img6.jpg);"></div>
+        </section>
+
     </main>
-    <aside class="grid-item">Lorem, ipsum dolor.</aside>
+
+    <aside class="grid-item"></aside>
+
     <footer class="grid-item">
-        <div>
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quis excepturi tenetur illum ratione facilis impedit.</p>
-            <p>Lorem ipsum dolor sit amet.</p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-        </div>
-        <div>
-            <p>Lorem ipsum dolor sit amet.</p>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-        </div>
-        <div>
-            <div class="fb-page" data-href="https://www.facebook.com/El-Gratos-Muchachos-108631280570470/" data-tabs="timeline" data-width="360" data-height="500" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/El-Gratos-Muchachos-108631280570470/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/El-Gratos-Muchachos-108631280570470/">El Gratos Muchachos</a></blockquote></div>
-        </div>
+
+        <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2014.8898839482922!2d19.971081816949134!3d50.09740797696674!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x5172e0a0ae556a00!2sJumiz%20Sp.%20z%20o.o.!5e0!3m2!1sen!2spl!4v1600178640505!5m2!1sen!2spl" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+
+        <section class="triple">
+            <div>
+                <h3>lorem</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                <h3>lorem</h3>
+                <p>Lorem ipsum dolor sit amet.</p>
+            </div>
+            <div>
+                <h3>lorem</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                <h3>lorem</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+            </div>
+            <div class="fb-div">
+                <iframe class="fb" src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FEl-Gratos-Muchachos-108631280570470%2F&tabs=timeline&width=280&height=460&small_header=true&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" width="280" height="460" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe>
+            </div>
+        </section>
+
+        <section class="copyright">Copyright 2020 | IT Crowd Gabriel Król</section>
+
     </footer>
+    
     <script src="js/script.js"></script>
     <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
 </body>
