@@ -211,6 +211,48 @@ main {
     height: 50vw;
     width: 100%;
 }
+/* Main - wrapper */
+/* main .wrapper {
+    display: flex;
+    flex-wrap:wrap;
+}
+main .wrapper section {
+    width: 34%;
+}
+main .wrapper .notice h3 {
+    color: rgba(0, 0, 0, 0.7);
+    font-weight: 600;
+}
+main .wrapper .notice p {
+    font-size: 13pt;
+}
+main .wrapper .text {
+    align-self: stretch;
+} */
+
+main .wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+main .wrapper div {
+    width: 100%;
+    padding: 15px;
+}
+main .wrapper .notice {
+    display: block;
+    text-align: center;
+    padding: 10px;
+    box-shadow: 0 0 6px 2px rgb(255, 166, 0), 0 0 6px 2px rgba(0, 0, 0, 0.3);
+    font-style: italic;
+
+}
+main .wrapper .yt-container {
+    margin-top: 20px;
+}
+main .wrapper .text {
+    font-size: 14pt;
+}
 
 /* Main - carousel */
 .main-carousel {

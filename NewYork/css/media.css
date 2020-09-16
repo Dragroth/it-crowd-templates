@@ -45,7 +45,9 @@
     footer .triple div p {
         font-size: 14pt;
     }
-
+    main .wrapper div {
+        width: 90%;
+    }
 }
 @media (min-width: 960px) {
     .carousel-cell {
@@ -57,6 +59,9 @@
     }
     footer .copyright {
         width: 50%;
+    }
+    main .wrapper div {
+        width: 80%;
     }
 }
 @media (min-width: 1150px) {
@@ -110,6 +115,25 @@
     footer .triple .fb-div {
         text-align: center;
     }
+    main .wrapper div {
+        width: 50%;
+    }
+    main .wrapper {
+        align-items: flex-start;
+        flex-direction: row;
+    }
+    main .wrapper div {
+        
+    }
+    main .wrapper .notice {
+        max-height: 412px;
+    }
+    main .wrapper .yt-container .yt {
+        max-height: 412px;
+    }
+    /* main .wrapper .text {
+        font-size: 19pt;
+    } */
 }
 @media (min-width: 1200px) {
     .testimonial-icon, .testimonial-quote, .testimonial-name {
@@ -122,6 +146,9 @@
     footer .triple {
         padding: 3em;
     }
+    /* main .wrapper .text {
+        font-size: 20pt;
+    } */
 }
 @media (min-width: 1400px) {
     footer .triple div {
@@ -129,5 +156,21 @@
     }
     footer .copyright {
         width: 30%;
+    }
+    /* main .wrapper .text {
+        font-size: 21pt;
+    } */
+}
+@media (min-width: 2090px) {
+    .main-gallery {
+        width: 80%;
+    }
+    /* main .wrapper .text {
+        font-size: 22pt;
+    } */
+}
+@media (min-width: 2600px) {
+    .main-gallery {
+        width: 62%;
     }
 }
