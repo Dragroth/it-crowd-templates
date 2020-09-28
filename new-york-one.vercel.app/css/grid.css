@@ -1,3 +1,4 @@
+/* All */
 header {
     grid-area: header;
 }
@@ -19,4 +20,24 @@ footer {
     "footer";
     grid-template-columns: 1fr;
     font-size: 16pt;
+}
+
+/* Page - main */
+.page-title {
+    grid-area: page-title;
+}
+.page-content {
+    grid-area: page-content;
+}
+.page-aside {
+    grid-area: page-aside;
+    min-width: min-content;
+}
+.main-page {
+    display: grid;
+    grid-template-areas:
+    "page-title page-title"
+    "page-content page-aside";
+    grid-template-columns: 2.5fr 1fr;
+    gap: 35px;
 }

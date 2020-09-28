@@ -108,13 +108,8 @@ a:hover {
     
 }
 .navbar-other {
-    
     background-color: #fff;
     box-shadow: 1px 1px 10px black;
-}
-
-aside {
-    margin: 2rem 0 2rem 0;
 }
 
 /* NOWE */
@@ -270,6 +265,7 @@ aside {
 /* Aside */
 aside#aside {
     padding: 100px 0 60px 0;
+    margin: 2rem auto;
 }
 
 /* Main */
@@ -285,24 +281,25 @@ main {
 main .wrapper div {
     display: flex;
     flex-direction: column;
+    margin: 1em auto;
 }
 
 main .wrapper div section {
     width: 100%;
     margin: 15px 0;
     font-size: 14pt;
-    
 }
-main .wrapper .notice {
+main .wrapper .notice, main .wrapper .form-container {
     display: flex;
     flex-direction: column;
     justify-content: center;
     text-align: center;
     padding: 10px;
-    box-shadow: 0 0 6px 2px rgb(255, 208, 0), 0 0 6px 2px rgba(0, 0, 0, 0.3);
-
 }
-main .wrapper .notice .fa-id-card {
+main .wrapper .form-container input {
+    margin: 5px auto;
+}
+main .wrapper .notice i {
     font-size: 20pt;
 }
 main .wrapper .image {
@@ -311,10 +308,6 @@ main .wrapper .image {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-}
-main .wrapper .yt {
-    width: 100%;
-    height: 50vw;
 }
 
 /* Main - carousel */
@@ -435,6 +428,17 @@ main .wrapper .yt {
     transform: translate3d(0,0,0);
 }
 
+/* Main - page */
+.main-page {
+    margin: 5em auto;
+}
+.main-page section {
+    box-shadow: 0px 4px 10px grey;
+    padding: 12px;
+}
+.main-page section h1 {
+    margin: 0;
+}
 /* Footer */
 footer {
     background-color: rgb(50, 50, 50);
