@@ -1,9 +1,21 @@
-/* General */
+/* Global */
+html {
+    scroll-behavior: smooth;
+}
 body {
     font-family: 'Montserrat', sans-serif;
 }
 * { 
     box-sizing: border-box; 
+}
+::selection {
+    background-color: rgb(255, 208, 0);
+    color: black;
+}
+
+::-moz-selection {
+    background-color: rgb(255, 208, 0);
+    color: black;
 }
 a:hover {
     text-decoration: none;
@@ -62,7 +74,7 @@ a:hover {
     font-weight: bold;
 }
 .navbar-item a:hover {
-    color: #FFEF50;
+    color: rgb(255, 208, 0);
     text-shadow: rgb(51, 51, 51) 2px 0px 0px, rgb(51, 51, 51) 1.75517px 0.958851px 0px, rgb(51, 51, 51) 1.0806px 1.68294px 0px, rgb(51, 51, 51) 0.141474px 1.99499px 0px, rgb(51, 51, 51) -0.832294px 1.81859px 0px, rgb(51, 51, 51) -1.60229px 1.19694px 0px, rgb(51, 51, 51) -1.97998px 0.28224px 0px, rgb(51, 51, 51) -1.87291px -0.701566px 0px, rgb(51, 51, 51) -1.30729px -1.5136px 0px, rgb(51, 51, 51) -0.421592px -1.95506px 0px, rgb(51, 51, 51) 0.567324px -1.91785px 0px, rgb(51, 51, 51) 1.41734px -1.41108px 0px, rgb(51, 51, 51) 1.92034px -0.558831px 0px;
 }
 .navbar-item a::after {
@@ -71,7 +83,7 @@ a:hover {
     bottom: 0;
     width: 100%;
     height: 3px;
-    background: #FFEF50;
+    background: rgb(255, 208, 0);
     box-shadow: 0 0 1px #000;
     color: #333;
     content: "";
@@ -100,7 +112,7 @@ a:hover {
     opacity: 1;
 }
 .navbar-item.active a {
-    color: #FFEF50;
+    color: rgb(255, 208, 0);
     text-shadow: rgb(51, 51, 51) 2px 0px 0px, rgb(51, 51, 51) 1.75517px 0.958851px 0px, rgb(51, 51, 51) 1.0806px 1.68294px 0px, rgb(51, 51, 51) 0.141474px 1.99499px 0px, rgb(51, 51, 51) -0.832294px 1.81859px 0px, rgb(51, 51, 51) -1.60229px 1.19694px 0px, rgb(51, 51, 51) -1.97998px 0.28224px 0px, rgb(51, 51, 51) -1.87291px -0.701566px 0px, rgb(51, 51, 51) -1.30729px -1.5136px 0px, rgb(51, 51, 51) -0.421592px -1.95506px 0px, rgb(51, 51, 51) 0.567324px -1.91785px 0px, rgb(51, 51, 51) 1.41734px -1.41108px 0px, rgb(51, 51, 51) 1.92034px -0.558831px 0px;
 }
 .navbar-top {

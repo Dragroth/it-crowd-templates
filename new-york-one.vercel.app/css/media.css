@@ -21,9 +21,6 @@
     .main-gallery {
         width: 90%;
     }
-    footer .triple div{ 
-        width: 70%;
-    }
 }
 @media (min-width: 600px) {
     .carousel-cell {
@@ -35,15 +32,6 @@
     }
     .main-gallery {
         width: 50%;
-    }
-    footer .triple div{ 
-        width: 50%;
-    }
-    footer .triple div h3 {
-        font-size: 18pt;
-    }
-    footer .triple div p {
-        font-size: 14pt;
     }
     .wrapper {
         width: 90%;
@@ -106,19 +94,6 @@
         padding: 0;
         margin: 10px 15px;
     }
-    footer .triple {
-        flex-direction: row;
-        justify-content: space-evenly;
-        align-items: flex-start;
-        padding: 2em;
-    }
-    footer .triple div {
-        width: 20%;
-        text-align: left;
-    }
-    footer .triple .fb-div {
-        text-align: center;
-    }
     .wrapper {
         width: 100%;
     }
@@ -144,9 +119,6 @@
         padding: 40px 0;
         font-size: 16pt;
     }
-    footer .triple {
-        padding: 3em;
-    }
     .wrapper {
         width: 90%;
     }
@@ -169,7 +141,6 @@
     .wrapper {
         width: 75%;
     }
-
 }
 @media (min-width: 2600px) {
     .main-gallery {
