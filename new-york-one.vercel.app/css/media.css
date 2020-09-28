@@ -1,0 +1,192 @@
+@media (min-width: 400px) {
+    .carousel-cell {
+        padding: 65px 0;
+        font-size: 12pt;
+    }
+}
+@media (min-width: 450px) {
+    .carousel-cell {
+        padding: 55px 0;
+        font-size: 13pt;
+    }
+    .flickity-prev-next-button {
+        width: 44px;
+    }
+    .static-image-container h1 {
+        font-size: 48pt;
+    }
+    .static-image-container h2, .static-image-container p {
+        font-size: 22pt;
+    }
+    .main-gallery {
+        width: 90%;
+    }
+    footer .triple div{ 
+        width: 70%;
+    }
+}
+@media (min-width: 600px) {
+    .carousel-cell {
+        padding: 45px 0;
+        font-size: 14pt;
+    }
+    .static-image-container h1 {
+        font-size: 52pt;
+    }
+    .main-gallery {
+        width: 50%;
+    }
+    footer .triple div{ 
+        width: 50%;
+    }
+    footer .triple div h3 {
+        font-size: 18pt;
+    }
+    footer .triple div p {
+        font-size: 14pt;
+    }
+    .wrapper {
+        width: 90%;
+        margin: auto;
+    }
+}
+@media (min-width: 960px) {
+    .carousel-cell {
+        padding: 20px 0;
+        font-size: 16pt;
+    }
+    .static-image-container h1 {
+        font-size: 62pt;
+    }
+    footer .copyright {
+        width: 50%;
+    }
+    .wrapper {
+        width: 80%;
+    }
+}
+@media (min-width: 1150px) {
+    .navbar-right {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        top: initial;
+        height: initial;
+        width: initial;
+        right: initial;
+        max-width: initial;
+        padding: 0;
+        background-color: transparent;
+    }
+    .navbar-item a {
+        padding: .4em .8em;
+    }
+    .menu-toggler {
+        display: none;
+    }
+    .carousel-cell {
+        padding: 30px 0;
+        font-size: 16pt;
+    }
+    .static-image-container h1 {
+        font-size: 76pt;
+    }
+    main {
+        width: 80%;
+        margin: auto;
+    }
+    .main-gallery {
+        flex-direction: row;
+        width: 100%;
+    }
+    .main-gallery-item {
+        width: 380px;
+        height: 380px;
+        padding: 0;
+        margin: 10px 15px;
+    }
+    footer .triple {
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: flex-start;
+        padding: 2em;
+    }
+    footer .triple div {
+        width: 20%;
+        text-align: left;
+    }
+    footer .triple .fb-div {
+        text-align: center;
+    }
+    .wrapper {
+        width: 100%;
+    }
+    main .wrapper div {
+        flex-direction: row;
+    }
+    main .wrapper div section {
+        width: 50%;
+        margin: 15px;
+    }
+    main .wrapper div section.image {
+        width: 50%;
+        margin: 15px;
+    }
+    main .wrapper .image {
+        height: auto;
+    }
+    main .wrapper .yt {
+        height: 100%;
+        min-height: 40vh;
+    }
+}
+@media (min-width: 1200px) {
+    .testimonial-icon, .testimonial-quote, .testimonial-name {
+        width: 60%;
+    }
+    .carousel-cell {
+        padding: 40px 0;
+        font-size: 16pt;
+    }
+    footer .triple {
+        padding: 3em;
+    }
+    .wrapper {
+        width: 90%;
+    }
+}
+@media (min-width: 1400px) {
+    footer .triple div {
+        width: 16%;
+    }
+    footer .copyright {
+        width: 30%;
+    }
+    .wrapper {
+        width: 85%;
+    }
+    main .wrapper div section {
+        margin: 20px;
+    }
+}
+@media (min-width: 2090px) {
+    .main-gallery {
+        width: 80%;
+    }
+    .wrapper {
+        width: 75%;
+    }
+
+}
+@media (min-width: 2600px) {
+    .main-gallery {
+        width: 62%;
+    }
+    .wrapper {
+        width: 50%;
+    }
+    main .wrapper div section {
+        margin: 30px;
+    }
+}
