@@ -332,7 +332,7 @@ main .wrapper .offer-menu {
     align-items: center;
     flex-direction: column;
     flex-wrap: wrap;
-    margin: auto;
+    margin: auto auto 20px auto;
 }
 .main-gallery-item {
     margin: 15px 0px;
