@@ -73,6 +73,28 @@
     .menu-toggler {
         display: none;
     }
+    .hamburger-menu-att, .hamburger-menu-vis {
+        display: none;
+        position: absolute;
+        background-color: #fff;
+        box-shadow: 4px 6px 6px black;
+        top: 64px;
+        z-index: 999;
+    } 
+    .navbar-item-ham:hover .hamburger-menu-vis, .navbar-item-ham:hover .hamburger-menu-att {
+        display: block;
+    }
+    .hamburger-menu-att {
+        left: 470px;
+    } 
+    .ham-item {
+        margin: .8em 0;
+    }
+    .ham-item a {
+        width: 100%;
+        padding: 1rem;
+        font-size: 1em;
+    }
     .carousel-cell {
         padding: 30px 0;
         font-size: 16pt;

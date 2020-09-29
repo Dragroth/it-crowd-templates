@@ -53,19 +53,18 @@ a:hover {
     top: 0;
     right: -100%;
     max-width: 400px;
-    padding: 80px 50px;
+    padding: 50px 50px;
     transition: .3s linear;
     z-index: 999;
 }
 .navbar-item {
-    display: flex;
-    align-items: center;
+    
 }
 .navbar-item:last-child {
     font-size: 0.8em;
     margin-right: 0;
 }
-.navbar-item a {
+.navbar-item > a {
     display: inline-block;
     position: relative;
     color: #333;
@@ -73,7 +72,7 @@ a:hover {
     padding: .4em 0;
     font-weight: bold;
 }
-.navbar-item a:hover {
+.navbar-item > a:hover {
     color: rgb(255, 208, 0);
     text-shadow: rgb(51, 51, 51) 2px 0px 0px, rgb(51, 51, 51) 1.75517px 0.958851px 0px, rgb(51, 51, 51) 1.0806px 1.68294px 0px, rgb(51, 51, 51) 0.141474px 1.99499px 0px, rgb(51, 51, 51) -0.832294px 1.81859px 0px, rgb(51, 51, 51) -1.60229px 1.19694px 0px, rgb(51, 51, 51) -1.97998px 0.28224px 0px, rgb(51, 51, 51) -1.87291px -0.701566px 0px, rgb(51, 51, 51) -1.30729px -1.5136px 0px, rgb(51, 51, 51) -0.421592px -1.95506px 0px, rgb(51, 51, 51) 0.567324px -1.91785px 0px, rgb(51, 51, 51) 1.41734px -1.41108px 0px, rgb(51, 51, 51) 1.92034px -0.558831px 0px;
 }
@@ -105,7 +104,7 @@ a:hover {
 .navbar-item:last-child > a::after {
     display: none;
 }
-.navbar-item:hover > a::after {
+.navbar-item a:hover::after {
     opacity: 1;
 }
 .navbar-item.active > a::after {
@@ -126,26 +125,12 @@ a:hover {
 
 /* NOWE */
 
-.hamburger-menu-att, .hamburger-menu-vis {
-    display: none;
-    position: absolute;
-    background-color: #fff;
-    box-shadow: 4px 6px 6px black;
-    top: 64px;
-    z-index: 999;
-} 
-.navbar-item-ham:hover .hamburger-menu-vis, .navbar-item-ham:hover .hamburger-menu-att {
-    display: block;
+.hamburger-menu-att a, .hamburger-menu-vis a {
+    font-size: .7em;
+    color: rgb(110, 110, 110);
 }
-.hamburger-menu-att {
-    left: 470px;
-} 
-.ham-item a {
-    width: 100%;
-    padding: 1rem;
-}
-.contact-meta {
-    margin-top: 2%;
+.hamburger-menu-att a:hover, .hamburger-menu-vis a:hover {
+    color: black;
 }
 .meta-img {
     background: url('../img/meta-img.jpg');
@@ -156,7 +141,6 @@ a:hover {
 }
 .company-meta {
     text-align: center;
-    
 }
 .offer-menu {
     text-decoration: none;
@@ -164,7 +148,6 @@ a:hover {
     padding: 0;
     margin: 0;
     font-size: 12pt;
-    /* line-height: 3px; */
 }
 
 /* -NOWE- */
@@ -301,13 +284,6 @@ main .wrapper .form-container input {
 }
 main .wrapper .notice i {
     font-size: 20pt;
-}
-main .wrapper .image {
-    width: 100%;
-    height: 50vw;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
 }
 
 /* Main - carousel */
